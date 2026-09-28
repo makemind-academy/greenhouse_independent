@@ -1,0 +1,13 @@
+name: greenhouse_server
+description: Serves a greenhouse whose sensors and actuators are discovered, not hardcoded — rules speak in kinds, so probes can be swapped without touching the control side.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  mcp_server: ^2.1.1
+
+dev_dependencies:
+  lints: ^3.0.0
